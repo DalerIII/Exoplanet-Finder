@@ -135,6 +135,12 @@ export default function Register() {
           >
             Already have an account? <span className="underline">Login</span>
           </p>
+          <p
+            onClick={() => router.push("/main")}
+            className="text-sm text-gray-300 mt-4 text-center cursor-pointer hover:text-yellow-400 transition"
+          >
+            <span className="underline">Work without acoount!</span>
+          </p>
         </form>
       </div>
     </div>
