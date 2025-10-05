@@ -105,6 +105,12 @@ export default function Login() {
           >
             Do not have an account? <span className="underline">Зарегистрироваться</span>
           </p>
+          <p
+            onClick={() => router.push("/main")}
+            className="text-sm text-gray-300 mt-4 text-center cursor-pointer hover:text-purple-400 transition"
+          >
+            <span className="underline">Work without account!</span>
+          </p>
         </form>
       </div>
     </div>
